@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Позиционирование</title>
+  </head>
+
+  <body>
+    <div class="feedback-form">
+      <div class="full-name-form">
+        <p class="text-form">Full name</p>
+        <table class="table">
+          <tr>
+            <td class="td2col">
+              <input
+                class="text-form-input"
+                type="text"
+                placeholder="First Name"
+              />
+            </td>
+            <td class="td2col">
+              <input
+                class="text-form-input"
+                type="text"
+                placeholder="Last Name"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="address-form">
+        <p class="text-form">Address</p>
+        <table class="table">
+          <tr>
+            <td class="td1col" colspan="3">
+              <input
+                class="text-form-input"
+                type="text"
+                placeholder="Street Address"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="td3col">
+              <input class="text-form-input" type="text" placeholder="City" />
+            </td>
+            <td class="td3col">
+              <input class="text-form-input" type="text" placeholder="State" />
+            </td>
+            <td class="td3col">
+              <input
+                class="text-form-input"
+                type="text"
+                placeholder="ZIP Code"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="contact-information-form">
+        <p class="text-form">Contact Information</p>
+        <table class="table">
+          <tr>
+            <td class="td2col">
+              <input class="text-form-input" type="text" placeholder="Email*" />
+            </td>
+            <td class="td2col">
+              <input class="text-form-input" type="text" placeholder="Phone" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="questions-form">
+        <p class="text-form">Questions / Comments</p>
+        <textarea class="message" placeholder="Message*"></textarea>
+      </div>
+      <div class="checkbox-form">
+        <input class="checkbox" id="email-updates" type="checkbox" />
+        <label for="email-updates"
+          >Update me on deals and special offers via email.</label>
+      </div>
+      <div class="submit-form">
+        <input class="submit" type="submit" value="Submit" />
+      </div>
+    </div>
+  </body>
+</html>
